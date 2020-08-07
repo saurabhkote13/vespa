@@ -16,7 +16,6 @@ import com.assimilate.vespa.services.VespaService;
 public class VespaRestController {
 	@Autowired
 	private VespaService vespaservice;
-	//demo task 1
 	@PostMapping("/api/vespatest/create")
 	public ResponseEntity<Object> createVespaTest(@RequestBody Vespa vespa)
 	{
