@@ -3,8 +3,8 @@ package com.assimilate.vespa.dao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
-
 import com.assimilate.vespa.model.Vespa;
+//implementation
 @Component
 public class VespaDaoImpl implements VespaDao{
 	
