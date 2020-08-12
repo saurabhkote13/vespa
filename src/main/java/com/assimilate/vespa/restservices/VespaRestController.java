@@ -14,9 +14,9 @@ import com.assimilate.vespa.services.VespaService;
 @CrossOrigin
 @RestController
 public class VespaRestController {
+
 	@Autowired
 	private VespaService vespaservice;
-	//demo task 1
 	@PostMapping("/api/vespatest/create")
 	public ResponseEntity<Object> createVespaTest(@RequestBody Vespa vespa)
 	{
