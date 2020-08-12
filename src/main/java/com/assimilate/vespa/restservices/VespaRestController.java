@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.assimilate.vespa.model.Vespa;
 import com.assimilate.vespa.services.VespaService;
 
-@CrossOrigin
+@CrossOrigin("*")
 @RestController
 public class VespaRestController {
 
