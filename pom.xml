@@ -12,6 +12,7 @@
 	<artifactId>spring-boot-vespa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-vespa</name>
+	<packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -79,6 +80,11 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-tomcat -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-tomcat</artifactId>
+    </dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper -->
 <dependency>
     <groupId>org.apache.tomcat.embed</groupId>
